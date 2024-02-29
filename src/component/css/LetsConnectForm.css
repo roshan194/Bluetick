@@ -1,0 +1,61 @@
+.connect-form {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 10px);
+    justify-content: space-between;
+}
+
+.form-group-column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 10px);
+}
+
+.form-group-row label,
+.form-group-column label {
+
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-item-cont {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
